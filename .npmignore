@@ -1,0 +1,16 @@
+# Source files
+.github/
+assets/
+docs/
+
+# Config files
+.prettierrc
+.eslintrc.json
+.gitignore
+.npmignore
+jsconfig.json
+
+# Development files
+CONTRIBUTING.md
+README.md
+LICENSE

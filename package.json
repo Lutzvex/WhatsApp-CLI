@@ -1,0 +1,33 @@
+{
+  "name": "whatsapp-cli-pro",
+  "version": "1.1.1",
+  "description": "WhatsApp CLI made by Jack Williams",
+  "main": "index.js",
+  "bin": {
+    "whatsapp-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "whatsapp",
+    "cli",
+    "terminal"
+  ],
+  "author": "Jack Williams",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "figlet": "^1.9.4",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^8.2.7",
+    "node-notifier": "^10.0.1",
+    "ora": "^5.4.1",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js"
+  }
+}
